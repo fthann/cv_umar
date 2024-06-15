@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website Portfolio</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2642963cc2.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
+      
+  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Inter:wght@400;600&display=swap');
+      </style>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav  data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="1500">
+
+                <a href="index.html"><img src="/Logooo2 (1).png" class="logo"></a>
+                <ul id="sidemenu">
+                    
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Service</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            
+            <div class="header-text" data-aos="fade-right">
+                <p>UI/UX Designer</p>
+                <h1>Hi, I'm <span>Umar</span><br>Fathan from Indonesia</h1>
+            </div>
+        </div>
+    </div>
+
+   <!--------------------ABOUT--------------->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1" data-aos="fade-right">
+                    <img src="/boutme2.png" alt="">
+                </div>
+                <div class="about-col-2"  data-aos="fade-up"
+                data-aos-anchor-placement="center-bottom">
+                <div data-aos="flip-up"><h1 class="sub-title">About Me</h1></div>
+                    
+                    <p class="desc">How's goin y'all!, i'm Umar Fathan and i'm 17 y.o RPL Vocational Student. I love UI/UX Design cause it's my dream and also it has big sallary 🤑. i had to think about my goals and i've been thingkin about CV, so i hope u guys enjoy the Web! Thank You.    </p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><div class="desc1">Designing Web/App interfaces</div></li>
+                            <li><span>Web Development</span><div class="desc1">Web Development</div></li>
+                            <li><span>App Development</span><div class="desc1">Building Android/iOS Apps</div></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><div class="desc1">UI/UX Design Training at PT. Traveloka ID.</div></li>
+                            <li><span>2019 - 2021</span><div class="desc1">Team lead at StarApp LLC.</div></li>
+                            <li><span>2017 - 2019</span><div class="desc1">UI/UX Design Executive at Coin Digital Ltd.</div></li>
+                            <li><span>2016 - 2017</span><div class="desc1">Internship at PT. LookMedia.</div></li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2016</span><div class="desc1">UI/UX Design Training at PT. Traveloka ID.</div></li>
+                            <li><span>2016</span><div class="desc1">MBA from MIT Bangalore.</div></li>
+                            <li><span>2014</span><div class="desc1">BBA from ISM Bangalore.</div></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--------------------SERVICE--------------->
+
+<div id="services">
+    <div class="container">
+        <div data-aos="zoom-out"><h1 class="sub-title">My Services</h1></div>
+        <div class="services-list" data-aos="zoom-in-up">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Make UI Design of Website company and Wireframing. Tools that i used: Figma, Adobe Photoshop, Motion etc.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>Brainstroming about UI/UX. it also on Web or Mobile. Tools that i used: Figma, Adobe Photoshop, Motion, Balsamiq, etc.</p>
+                <a href="#">Learn more</a>
+            </div>
+
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <p>Make UI Design of Application company and Wireframing. Tools that i used: Figma, Adobe Photoshop, Motion etc.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+ <!--------------------PORTFOLIO--------------->
+    
+<div id="portfolio">
+    <div class="container">
+        <div data-aos="zoom-out"><h1 class="sub-title">My Work</h1></div>
+        <div class="work-list">
+            <div class="work" data-aos="zoom-in-right">
+                <img src="/charity.png" alt="">
+                <div class="layer">
+                    <h3>Charity Website</h3>
+                    <p>Berbagive is a digital platform for collecting donations to be distributed to people in need.</p>
+                        <a href="https://www.figma.com/file/f2R7VQ9qNqAdgpHdMZUSfr/Charity-Web-Design?type=design&node-id=0%3A1&mode=design&t=lTe2Nf2mhY7GbXJG-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work" data-aos="zoom-in">
+                <img src="/laundry (1).png" alt="">
+                <div class="layer">
+                    <h3>Laundry App</h3>
+                    <p>Clean Kangaroo is a platform for customer. and also people can order their clothes as well.</p>
+                        <a href="https://www.figma.com/file/fTpD7YQygdwi3B9u0gWGhG/Clean-Kangaroo?type=design&node-id=0%3A1&mode=design&t=jhh4tOtXFfwNbfVz-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+
+            <div class="work"  data-aos="zoom-in-left">
+                <img src="/LILBUDI.png" alt="">
+                <div class="layer">
+                    <h3>Learning App</h3>
+                    <p>Lil English is an app which is educationed kids and learning english with fun.</p>
+                        <a href="https://www.figma.com/file/J5EMrUtjG6RKBeA9JxycRZ/Lil-English?type=design&node-id=0%3A1&mode=design&t=GzSJ4pUqzXmWjfM3-1"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <a href="#" class="btn">See more</a>
+    </div>
+</div> 
+
+<!--------------------CONTACT--------------->
+
+<div id="contact">
+    <div class="container" data-aos="fade-up">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i> fathanalfrq@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i> 0812168219</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/fthnalfrq"><i class="fa-brands fa-twitter-square"></i></a>
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+
+                <a href=""  class="btn btn2">Download Cv</a>
+            </div>
+            <div class="contact-right"data-aos="zoom-in-left">
+                <form>
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>Copyright © Umar. Made with  <i class="fa-solid fa-heart"></i>  grade XII RPL Student</p>
+    </div>
+</div>
+
+
+<!--------------------SCRIPT--------------->
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links")
+    var tabcontents = document.getElementsByClassName("tab-contents")
+
+    function opentab(tabname) {
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab")
+    }
+
+</script>
+
+<script>
+ 
+    var sidemeu = document.getElementById("sidemenu");
+    
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+</body>
+</html>
